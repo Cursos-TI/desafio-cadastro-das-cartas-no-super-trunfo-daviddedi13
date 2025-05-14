@@ -28,7 +28,7 @@ int main() {
     char CartaES[3] = "ES";
     char CodigodaCartaES[50] = "B02";
 
-    //CARTA A01 MINAS GERAIS
+    printf("CARTA MINAS GERAIS\n\n");//CARTA A01 MINAS GERAIS
     printf("Carta: %s\n", CartaMG);
     printf("Estado: %s\n", EstadoMG);
     printf("Código: %s\n", CodigodaCartaMG);
@@ -38,8 +38,8 @@ int main() {
     printf("PIB: %.2f\n", PIBMG);
     printf("Pontos Turisticos: %d\n\n", PontosTuristicosMG);
  
-    //CARTA B02 ESPIRITO SANTO
-  
+    
+    printf("CARTA ESPIRITO SANTO\n\n");
     printf("Carta: %s\n", CartaES);
     printf("Estado: %s\n", EstadoES);
     printf("Código: %s\n", CodigodaCartaES);
@@ -48,7 +48,7 @@ int main() {
     printf("Area por km²: %.3f\n", AreakmES);
     printf("PIB: %.2f\n", PIBES);
     printf("Pontos Turisticos: %d\n", PontosTuristicosES);
-    
+
 
 
 
